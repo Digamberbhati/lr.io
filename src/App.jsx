@@ -1,7 +1,9 @@
-import { Outlet } from 'react-router-dom'
-import './App.css'
+
+
+import { Route, Routes } from "react-router-dom"
 import Navbar from "./components/Navbar"
 import Footer from './components/footer'
+import Home from "./pages/home"
 
 
 function App() {
@@ -9,11 +11,14 @@ function App() {
 
   return (
     <>
-  <Navbar/>
-  <Outlet/>
+     <Navbar/>
+    
+    <Routes>
+      <Route path="/" element={<Home/>}  />
+    </Routes>
+
   <Footer/>
-  
-  
+    
     </>
   )
 }
