@@ -3,9 +3,9 @@ import React from 'react'
 function home() {
   return (
     <>
-    <main>
+    <main >
     {/* Home Section */}
-    <section className="hero relative" id="home">
+    <section className="hero relative bg-cover bg-center bg-[url('public/images/lokesh1.jpg')]" id="home">
       <div className="absolute"></div>
       <div className="relative mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
         <div className="max-w-xl text-center pt-20 sm:pt-0 bottom-0 sm:text-left">
