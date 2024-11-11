@@ -11,8 +11,8 @@ function Navbar() {
   };
 
   return (
-    <header className="bg-bgnav border-b sticky top-0 left-0 z-50">
-      <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+    <header className="bg-white border-b sticky top-0 left-0 z-50">
+      <div className="mx-auto max-w-screen-xl  sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex-1 md:flex md:items-center md:gap-12">
@@ -25,11 +25,11 @@ function Navbar() {
           {/* Desktop Menu */}
           <div className="md:flex md:items-center md:gap-20">
             <nav aria-label="Global" className="hidden md:block">
-              <ul className="flex items-center gap-12 text-sm font-bold">
+              <ul className="flex items-center gap-12 text-[1.1vw] font-bold">
                 <li>
                   <Link className="text-gray-500 transition hover:text-gray-500/75 capitalize" to="/"> Home </Link>
                 </li>
-                {["about", "careers", "history", "service", "projects", "blog"].map((item, index) => (
+                {["about", "clients", "diet", "training", "contact"].map((item, index) => (
                   <li key={index}>
                     <Link className="text-gray-500 transition hover:text-gray-500/75 capitalize" to={`/${item}`}> {item} </Link>
                   </li>
@@ -56,7 +56,7 @@ function Navbar() {
           <li>
             <Link className="capitalize" to="/" onClick={toggleMenu}> Home </Link>
           </li>
-          {["about", "careers", "history", "service", "projects", "blog"].map((item, index) => (
+          {["about", "clients", "diet", "training", "contact"].map((item, index) => (
             <li key={index}>
               <Link className="capitalize" to={`/${item}`} onClick={toggleMenu}> {item} </Link>
             </li>
