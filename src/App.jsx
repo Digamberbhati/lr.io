@@ -1,5 +1,5 @@
 
-
+import React from "react"
 import { Route, Routes } from "react-router-dom"
 import Navbar from "./components/Navbar"
 import Footer from './components/Footer'
@@ -7,8 +7,8 @@ import Home from "./pages/home"
 import About from "./components/About"
 import Clients from "./components/Clients"
 import Diet from "./components/Diet"
-import Training from "./components/Training"
 import Contact from "./components/Contact"
+import Training from "./components/Training"
 
 
 

@@ -2,6 +2,7 @@ import React from 'react'
 
 function home() {
   return (
+    <>
     <main>
     {/* Home Section */}
     <section className="hero relative" id="home">
@@ -33,6 +34,59 @@ function home() {
       </div>
     </section>
   </main>
+
+  {/* <!-- Counter --> */}
+
+<div class="counter-wrapper">
+    <div class="counter  flex flex-col items-center">
+       
+            <img src="images/svg/arrrow.svg" alt="" class="h-10"/>
+            <div class="text-[#1D4ED8] font-bold flex items-center ">
+                <h1 class="count " data-target="469">0</h1>
+                <span class="text-[3vw]">K+</span>
+            </div>
+          
+       
+        <p>Social media Followers</p>
+    </div>
+   
+    <div class="counter  flex flex-col items-center">
+       
+        <img src="images/svg/awwards.svg" alt="" class="h-10 "/>
+        <div class="text-[#1D4ED8] font-bold flex items-center ">
+            <h1 class="count " data-target="400">0</h1>
+            {/* <!-- <span class="text-[3vw]">K+</span> --> */}
+        </div>
+      
+   
+    <p>Awards Won</p>
+</div>
+
+<div class="counter  flex flex-col items-center">
+       
+    <img src="images/svg/people.svg" alt="" class="h-10"/>
+    <div class="text-[#1D4ED8] font-bold flex items-center ">
+        <h1 class="count " data-target="550">0</h1>
+        <span class="text-[3vw]">+</span>
+    </div>
+  
+
+<p>Clients</p>
+</div>
+
+<div class="counter  flex flex-col items-center">
+       
+    <img src="images/svg/collab.svg" alt="" class="h-10"/>
+    <div class="text-[#1D4ED8] font-bold flex items-center ">
+        <h1 class="count " data-target="1000">0</h1>
+        <span class="text-[3vw]">+</span>
+    </div>
+  
+
+<p>Brands Collabration</p>
+</div>
+</div>
+  </>
       
   )
 }
