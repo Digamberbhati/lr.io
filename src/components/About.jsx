@@ -85,7 +85,7 @@ function TimelineSection() {
 
       <ol className="relative border-s border-gray-700">
         <li className="mb-10 ms-4">
-          <div className="absolute w-3 h-3 bg-gray-900 rounded-full mt-1.5 -start-1.5 border border-gray-900"></div>
+          <div className="absolute w-3 h-3 bg-gray-900 rounded-full mt-1.5 -start-1.5 border border-white border-gray-900"></div>
           <time className="mb-1 text-sm font-normal leading-none">2023</time>
           <h3 className="text-lg font-semibold">Mr. World (Gold medalist)</h3>
           <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
@@ -94,7 +94,7 @@ function TimelineSection() {
           </p>
         </li>
         <li className="mb-10 ms-4">
-          <div className="absolute w-3 h-3 bg-gray-900 rounded-full mt-1.5 -start-1.5 border  border-gray-900"></div>
+          <div className="absolute w-3 h-3 bg-gray-900 rounded-full mt-1.5 -start-1.5 border border-white border-gray-900"></div>
           <time className="mb-1 text-sm font-normal leading-none">2016</time>
           <h3 className="text-lg font-semibold">Mr. Haryana</h3>
           <p className="text-base font-normal text-gray-500 dark:text-gray-400">
@@ -103,7 +103,7 @@ function TimelineSection() {
           </p>
         </li>
         <li className="ms-4">
-          <div className="absolute w-3 h-3 bg-gray-900 rounded-full mt-1.5 -start-1.5 border border-gray-900"></div>
+          <div className="absolute w-3 h-3 bg-gray-900 rounded-full mt-1.5 -start-1.5 border border-white border-gray-900"></div>
           <time className="mb-1 text-sm font-normal leading-none">2015</time>
           <h3 className="text-lg font-semibold">Mr. Gurgaon</h3>
           <p className="text-base font-normal text-gray-500 dark:text-gray-400">
