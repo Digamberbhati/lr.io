@@ -16,7 +16,7 @@ const About = () => {
           {/* Image Section */}
           <div className="shadow bg-red-400 sm:w-1/3 w-full h-auto sm:h-full mt-4 rounded-lg opacity-110 overflow-hidden flex flex-col">
             <img
-              src="images/owner.jpg"
+              src="images/personal/IMG_5.jpg"
               alt="Lokesh Rajput"
               className="scale-125 hover:scale-100 duration-300 object-cover object-top w-full h-full"
             />
@@ -85,7 +85,7 @@ function TimelineSection() {
 
       <ol className="relative border-s border-gray-700">
         <li className="mb-10 ms-4">
-          <div className="absolute w-3 h-3 bg-gray-900 rounded-full mt-1.5 -start-1.5 border border-white border-gray-900"></div>
+          <div className="absolute w-3 h-3 bg-gray-900 rounded-full mt-1.5 -start-1.5 border border-white"></div>
           <time className="mb-1 text-sm font-normal leading-none">2023</time>
           <h3 className="text-lg font-semibold">Mr. World (Gold medalist)</h3>
           <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
@@ -94,7 +94,7 @@ function TimelineSection() {
           </p>
         </li>
         <li className="mb-10 ms-4">
-          <div className="absolute w-3 h-3 bg-gray-900 rounded-full mt-1.5 -start-1.5 border border-white border-gray-900"></div>
+          <div className="absolute w-3 h-3 bg-gray-900 rounded-full mt-1.5 -start-1.5 border border-white"></div>
           <time className="mb-1 text-sm font-normal leading-none">2016</time>
           <h3 className="text-lg font-semibold">Mr. Haryana</h3>
           <p className="text-base font-normal text-gray-500 dark:text-gray-400">
@@ -103,7 +103,7 @@ function TimelineSection() {
           </p>
         </li>
         <li className="ms-4">
-          <div className="absolute w-3 h-3 bg-gray-900 rounded-full mt-1.5 -start-1.5 border border-white border-gray-900"></div>
+          <div className="absolute w-3 h-3 bg-gray-900 rounded-full mt-1.5 -start-1.5 border border-white"></div>
           <time className="mb-1 text-sm font-normal leading-none">2015</time>
           <h3 className="text-lg font-semibold">Mr. Gurgaon</h3>
           <p className="text-base font-normal text-gray-500 dark:text-gray-400">

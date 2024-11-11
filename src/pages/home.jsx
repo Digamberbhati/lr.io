@@ -66,7 +66,7 @@ function home() {
         <img src="images/personal/IMG_3.jpg" alt="" loading="lazy" className="filter drop-shadow-xl w-full h-full object-cover"/>
         {/* <!-- Gradient overlay --> */}
         <div className="gradient-overlay absolute inset-0"></div>
-        <div className="info absolute inset-0 flex flex-col justify-center items-start text-white z-10 hidden">
+        <div className="info absolute inset-0 flex flex-col justify-center items-start text-white z-10">
           <h1>Home Workout</h1>
           <p>Maximize your home workout with these tips: use bodyweight exercises, create a routine, stay consistent, and mix cardio with strength training for balanced results.</p>
           <a href="join.html" className="btn">Join Now</a>
@@ -104,6 +104,10 @@ function home() {
     </div>
   </div>
 </section>
+
+
+{/* gallary */}
+
   </>
       
   )
